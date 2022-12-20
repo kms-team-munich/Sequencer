@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/ertdfgcvb/Sequencer/issues"
   },
-  "homepage": "http://sequencer.ertdfgcvb.xyz"
+  "homepage": "http://sequencer.ertdfgcvb.xyz",
+  "devDependencies": {
+    "rollup": "^3.7.5",
+    "terser": "^5.16.1"
+  }
 }
