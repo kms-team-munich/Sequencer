@@ -66,7 +66,6 @@ class S {
     this.lastLoaded = -1;
     this.pongSign = 1;
     this.ctx = this.config.canvas.getContext("2d", { alpha: false });
-    this.ctx.getImageData(0, 0, 1, 1);
     // Take the provided list or build one with 'from' and 'to'
     this.list =
       this.config.list.length > 0
